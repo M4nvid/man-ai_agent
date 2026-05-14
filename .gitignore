@@ -1,0 +1,10 @@
+# Virtual Environments
+.venv
+.env
+
+# Python Aspectes
+.python-version
+pyproject.toml
+
+# Miscellaneous (What a difficult word)
+uv.lock
