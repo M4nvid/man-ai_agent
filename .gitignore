@@ -5,6 +5,7 @@
 # Python Aspectes
 .python-version
 pyproject.toml
+functions/__pycache__
 
 # Miscellaneous (What a difficult word)
 uv.lock
