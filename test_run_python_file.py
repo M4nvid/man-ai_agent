@@ -1,0 +1,13 @@
+from functions.run_python_file import run_python_file
+print("Testing calculator's instructions:")
+print(run_python_file("calculator", "main.py"))
+print("Testing a calculator run:")
+print(run_python_file("calculator", "main.py", ["3 + 5"]))
+print("Testing test running:")
+print(run_python_file("calculator", "tests.py"))
+print("Testing poor writing:")
+print(run_python_file("calculator", "../main.py"))
+print("Testing non-existance:")
+print(run_python_file("calculator", "nonexistent.py"))
+print("Testing non-python actions:")
+print(run_python_file("calculator", "lorem.txt"))
